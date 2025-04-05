@@ -1508,10 +1508,10 @@
   padding: 97px 2% 143px 12.5%;
 }
 .tf-slider-item .content-inner {
-  width: 50%;
+  width: 75%;
   position: relative;
   padding-top: 72px;
-  max-width: 560px;
+  max-width: 800px;
   margin-right: 90px;
 }
 .tf-slider-item .content-inner .heading {
