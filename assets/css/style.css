@@ -657,7 +657,7 @@ input[type=submit] {
   font-family: "Bakbak One";
   font-size: 16px;
   line-height: 24px;
-  background-color: #21E786;
+  background-color: #87CEEB;
   color: #040B11;
   padding: 17px 50px;
   display: inline-block;
@@ -676,7 +676,7 @@ input[type=reset]:hover,
 input[type=submit]:focus,
 input[type=submit]:hover {
   outline: 0;
-  background: #21E786;
+  background: #87CEEB;
   color: #fff;
 }
 
@@ -739,6 +739,18 @@ h3 {
 h4 {
   font-size: 24px;
   line-height: 30px;
+}
+
+.section-subtitle {
+  font-size: 30px; /* Try between 24px and 32px */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: var(--primary-color3);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color3);
+  text-underline-offset: 4px; 
 }
 
 h5 {
@@ -994,11 +1006,11 @@ a:hover, a:focus {
   --primary-color2: #888B8E;
   --primary-color3: #141B22;
   --primary-color4: #5865F2;
-  --primary-color5: #21E786;
+  --primary-color5: #87CEEB;
   --primary-color6: #F6F6F6;
   --primary-color7: #fff;
   --primary-color8: #fff;
-  --primary-color9: #21E786;
+  --primary-color9: #87CEEB;
   --primary-color10: #C2C3C5;
   --primary-color11: #141B22;
   --primary-color12: #fff;
@@ -1047,14 +1059,14 @@ a:hover, a:focus {
   --primary-color2: #C2C3C5;
   --primary-color3: #fff;
   --primary-color4: #141B22;
-  --primary-color5: #21E786;
+  --primary-color5: #87CEEB;
   --primary-color6: #141B22;
   --primary-color7: #040B11;
   --primary-color8: #141B22;
   --primary-color9: #fff;
   --primary-color10: #141B22;
-  --primary-color11: #21E786;
-  --primary-color12: #21E786;
+  --primary-color11: #87CEEB;
+  --primary-color12: #87CEEB;
   --primary-color13: #fff;
   --primary-color14: #fff;
   --primary-color15: transparent;
@@ -1149,7 +1161,7 @@ header #site-header-inner .header-right .tf-button i {
   margin-right: 10px;
 }
 header #site-header-inner .header-right .tf-button::before {
-  background-color: #21E786;
+  background-color: #87CEEB;
 }
 header #site-header-inner .header-right .tf-button.connect {
   background-color: var(--primary-color5);
@@ -1933,7 +1945,7 @@ header.absolute {
   background-color: transparent;
 }
 .footer .widget.widget-subcribe #subscribe-form .tf-button:hover {
-  border-color: #21E786;
+  border-color: #87CEEB;
   background-color: transparent;
   color: #fff;
 }
@@ -2013,7 +2025,7 @@ header.absolute {
   color: #fff;
 }
 .footer.style-2 .group-btn .tf-button.discord::before {
-  background-color: #21E786;
+  background-color: #87CEEB;
 }
 .footer.style-2 form {
   max-width: 690px;
@@ -2069,7 +2081,7 @@ header.absolute {
   color: #fff;
 }
 .footer.style-2 .social-item li:hover {
-  background-color: #21E786;
+  background-color: #87CEEB;
   cursor: pointer;
 }
 .footer.style-2 .footer-inner {
@@ -2160,7 +2172,7 @@ header.absolute {
   color: #fff;
 }
 .action-box .action-box-inner .group-btn .tf-button.discord::before {
-  background-color: #21E786;
+  background-color: #87CEEB;
 }
 
 /* PreLoad
