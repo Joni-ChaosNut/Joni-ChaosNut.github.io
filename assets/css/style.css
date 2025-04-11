@@ -763,6 +763,20 @@ h6 {
   line-height: 28px;
 }
 
+span.highlight{
+  color: var(--primary-color5);
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+span.highlight-big{
+  color: var(--primary-color5);
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 /* Extra classes
 -------------------------------------------------------------- */
 .msg-success {
