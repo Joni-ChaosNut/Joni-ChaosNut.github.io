@@ -2764,4 +2764,10 @@ header.absolute {
   background-color: var(--primary-color5);
 }
 
+.tf-partner-sec img {
+  filter: none !important;
+  mix-blend-mode: normal !important; 
+  background : transparent !important;
+}
+
 /*# sourceMappingURL=style.css.map */
