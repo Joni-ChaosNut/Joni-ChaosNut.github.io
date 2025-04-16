@@ -2770,4 +2770,48 @@ header.absolute {
   background : transparent !important;
 }
 
+/* Match the Connect button behavior globally */
+.tf-button.connect {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.tf-button.connect i {
+  font-size: 16px;
+  transition: none;
+  transform: none;
+  opacity: 1;
+}
+
+.tf-button.connect:active i,
+.tf-button.connect:focus i {
+  opacity: 1;
+  transform: none;
+}
+
+.tf-button.connect:focus,
+.tf-button.connect:active {
+  outline: none !important;
+  box-shadow: none !important;
+  background-position: initial !important;
+  transform: none !important;
+}
+
+.tf-button.connect i:focus,
+.tf-button.connect i:active {
+  transform: none;
+  opacity: 1;
+}
+
+textarea.form-control {
+  font-size: 16px !important;
+  color: #bbb; /* or your preferred text color */
+  line-height: 1.5;
+}
+
+textarea.form-control::placeholder {
+  color: #bbb;
+}
 /*# sourceMappingURL=style.css.map */

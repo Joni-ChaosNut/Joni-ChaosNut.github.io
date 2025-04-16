@@ -352,4 +352,14 @@
         avatar_popup();
     });
 
+    $(document).ready(function () {
+        $('#popup_register').on('hidden.bs.modal', function () {
+          const $btn = $('.tf-button.connect[data-target="#popup_register"]');
+          
+          // Clone and replace to force repaint and reset any stuck visual state
+          const $clone = $btn.clone(true);
+          $btn.replaceWith($clone);
+        });
+      });
+
 })(jQuery);
