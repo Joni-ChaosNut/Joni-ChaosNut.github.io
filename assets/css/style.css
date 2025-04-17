@@ -2814,4 +2814,9 @@ textarea.form-control {
 textarea.form-control::placeholder {
   color: #bbb;
 }
+
+.faq-padding-fix {
+  padding-bottom: 100px;
+  overflow: hidden;
+}
 /*# sourceMappingURL=style.css.map */
