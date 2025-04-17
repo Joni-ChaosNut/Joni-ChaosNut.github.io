@@ -337,7 +337,7 @@
     var alertBox = function () {
         $(document).on('click', '.close', function (e) {
             $(this).closest('.flat-alert').remove();
-            e.preventDefault();
+            // e.preventDefault();
         })
     };
 
