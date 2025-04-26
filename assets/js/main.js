@@ -178,7 +178,7 @@
                 }).insertAfter(nav);
                 injectSpace.hide();
                 $(window).on('load scroll', function () {
-                    if ($(window).scrollTop() > 400) {
+                    if ($(window).scrollTop() > 200) {
                         nav.addClass('is-fixed');
                         injectSpace.show();
                     } else {
@@ -186,7 +186,7 @@
                         injectSpace.hide();
                     }
 
-                    if ($(window).scrollTop() > 500) {
+                    if ($(window).scrollTop() > 200) {
                         nav.addClass('is-small');
                         
                     } else {
